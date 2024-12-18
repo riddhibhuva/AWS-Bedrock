@@ -1,0 +1,13 @@
+prefix=/Users/chetanpanchal/Desktop/MyProjects/AWSBedRock/venv
+exec_prefix=/Users/chetanpanchal/Desktop/MyProjects/AWSBedRock/venv
+libdir=/Users/chetanpanchal/Desktop/MyProjects/AWSBedRock/venv/lib
+sharedlibdir=/Users/chetanpanchal/Desktop/MyProjects/AWSBedRock/venv/lib
+includedir=/Users/chetanpanchal/Desktop/MyProjects/AWSBedRock/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
